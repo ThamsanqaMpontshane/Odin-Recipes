@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODIN RECIPES</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--</h1>Odin Recipes</h1>-->
-    <img src="/images/mylogo.png" alt="" width="100%" height="auto">
+    <!--</h1>Odin Recipe-->
+    <img src="/images/mylogo.png" alt="" width="90%" height="80%">
     <br><br>
     <a href="/recipes/frenchsandwich.html" target="blank">French Egg And Bacon Sandwich</a>
     <br>
@@ -19,5 +20,21 @@
     <a href="/recipes/overeasyegg.html" target="blank">Over Easy Egg</a>
     <br>
     <br>
+    <a href="#bottom"><div id="div">
+        <button id="demo2"></button>
+    </div></a>
+    <p id="demo1" style="text-align:center"></p>
+   
+    <script>
+        function myFunction() {
+          document.getElementById("demo1").innerHTML ="THAMSANQA MPONTSHANE";
+          document.getElementById("demo2").innerHTML = "CLICK ME";
+        }
+        </script>
+        
+    <div style="text-align:center">
+        <button type="button" onclick="myFunction()" style="color:blue">CREATOR</button>
+    </div>
+    <div id="bottom"></div>
 </body>
 </html>

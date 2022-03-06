@@ -1,0 +1,19 @@
+h1{
+    color: red
+}
+@font-face {
+    font-family: 'mine';
+    src: url(Ginger.woff);
+}
+#demo1{
+    font-family: 'mine';
+    color: green;
+    font-size: 50px
+}
+#demo2{
+    color:red
+}
+#div{
+    text-align:center;
+    border: auto black solid;
+}
