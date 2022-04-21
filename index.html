@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ODIN RECIPES</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+  <body>
     <!--</h1>Odin Recipe-->
-    <img src="/images/mylogo.png" alt="" width="90%" height="80%">
-    <br><br>
-    <a href="/recipes/frenchsandwich.html" target="blank">French Egg And Bacon Sandwich</a>
-    <br>
-    <br>
-    <a href="/recipes/egginahole.html" target="blank">Egg In A hole</a>
-    <br>
-    <br>
-    <a href="/recipes/overeasyegg.html" target="blank">Over Easy Egg</a>
-    <br>
-    <br>
-    <a href="#bottom"><div id="div">
-        <button id="demo2"></button>
-    </div></a>
-    <p id="demo1" style="text-align:center"></p>
-   
-    <script>
+    <div class="container">
+      <div class="header">
+        <img src="./images/mylogo.png" alt="" class="logo" />
+        <div class="box">
+          <div class="boxes box1" data-aos="fade-right" data-aos-duration="1700">
+            <a href="./recipes/frenchsandwich.html" target="blank"
+              >French Egg And Bacon Sandwich</a
+            >
+          </div>
+          <div class="boxes box2" data-aos="fade-up" data-aos-duration="1700">
+            <a href="./recipes/egginahole.html" target="blank" >Egg In A hole</a>
+          </div>
+          <div class="boxes box3" data-aos="fade-left" data-aos-duration="1700">
+            <a href="./recipes/overeasyegg.html" target="blank"
+              >Over Easy Egg</a
+            >
+          </div>
+        </div>
+      </div>
+<!-- 
+      <a href="#bottom">
+        <div id="div">
+          <button id="demo2"></button>
+        </div>
+      </a>
+      <p id="demo1" style="text-align: center"></p>
+
+      <script>
         function myFunction() {
-          document.getElementById("demo1").innerHTML ="THAMSANQA MPONTSHANE";
+          document.getElementById("demo1").innerHTML = "THAMSANQA MPONTSHANE";
           document.getElementById("demo2").innerHTML = "CLICK ME";
         }
-        </script>
-        
-    <div style="text-align:center">
-        <button type="button" onclick="myFunction()" style="color:blue">CREATOR</button>
+      </script>
+
+      <div style="text-align: center">
+        <button type="button" onclick="myFunction()" style="color: blue">
+          CREATOR
+        </button>
+      </div>
+      <div id="bottom"></div> -->
     </div>
-    <div id="bottom"></div>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
